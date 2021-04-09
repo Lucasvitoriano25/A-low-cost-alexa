@@ -11,7 +11,7 @@ O projeto consiste em um dispositivo HC-05, onde o mesmo se comunicará com um a
 ___________________________________________________
 
 Na pasta docs há documentos importantes tal quais:
- * documento de visão;
+ * documento de visão geral;
  * documento de instruções;
 ___________________________________________________
 
