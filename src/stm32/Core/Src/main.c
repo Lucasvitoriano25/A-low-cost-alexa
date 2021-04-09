@@ -205,19 +205,6 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-uint8_t string_compare(char array1[], char array2[], uint16_t length)
-{
-	 uint8_t comVAR=0, i;
-	 for(i=0;i<length;i++)
-	   	{
-	   		  if(array1[i]==array2[i])
-	   	  		  comVAR++;
-	   	  	  else comVAR=0;
-	   	}
-	 if (comVAR==length)
-		 	return 1;
-	 else 	return 0;
-}
 
 void Message_handler(char buffer[])
 {
@@ -284,8 +271,18 @@ void Message_handler(char buffer[])
 		HAL_Delay(500);
 		HAL_GPIO_TogglePin(LEDVERDE_GPIO_Port,LEDVERDE_Pin);
 		HAL_Delay(500);
+	}}else
+	if(strcasecmp(buffer,"*natal#") == 0){
+		pisca[0]=1;
+		pisca[1]=1;
+		pisca[2]=1;
 
-	}}
+	}else
+	if(strcasecmp(buffer,"*parar natal#") == 0){
+		pisca[0]=0;
+		pisca[1]=0;
+		pisca[2]=0;
+	}
 memset(buffer,0,30);
 }
 
