@@ -30,3 +30,20 @@ ___________________________________________________
 O sistema é composto por um aparelho celular, responsável por capturar o áudio e enviar o comando via Bluetooth, um componente chamado HC-05, que tem o papel de receber o comando via Bluetooth, e um microcontrolador que toma as decisões a partir do comando recebido. No caso da aplicação inicial do projeto, utilizamos leds para demonstrar a realização dos comandos recebidos. Entretanto, o objetivo é expandir o projeto e controlar outras coisas em uma residência, por exemplo.
  
 ___________________________________________________
+### Objetivos:
+ * Conseguir comunicar o aparelho celular com o HC-05, viabilizando o envio da string detectada a partir do áudio;
+ * Comparar os comandos recebidos pelo microcontrolador via comunicação serial com os comandos pre-estabelecidos que realizam determinada ação;
+___________________________________________________
+### Materiais Recomendados
+ * Microcontrolador -  STM32 - Bluepill;
+ * Módulo Bluetooth RS232 HC-05;
+ * Gravador ST-LINK;
+ * Aparelho celular;
+ * Led RGB;
+ * Resistores;
+ * Protoboad;
+___________________________________________________
+## Diagrama de Blocos
+![alt text](https://github.com/Lucasvitoriano25/A-low-cost-alexa/blob/master/Schematics/Diagrama-de-Blocos.png)
+
+
