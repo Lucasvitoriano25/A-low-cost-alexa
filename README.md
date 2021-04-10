@@ -15,7 +15,7 @@ Na pasta docs há documentos importantes tal quais:
  
 ___________________________________________________
 
-Na pasta Schematics, encontra-se o esquemático do sistema e imagens relacionadas ao projeto
+Na pasta Schematics, encontra-se o esquemático do sistema e imagens relacionadas ao projeto.
 ___________________________________________________
 
 Na pasta src se encontram os códigos dos programas que desenvolvemos para o sistema.
@@ -45,5 +45,8 @@ ___________________________________________________
 ___________________________________________________
 ## Diagrama de Blocos
 ![alt text](https://github.com/Lucasvitoriano25/A-low-cost-alexa/blob/master/Schematics/Diagrama-de-Blocos.png)
-
+___________________________________________________
+## Apresentação em vídeo e demonstração do funcionamento do projeto
+### Link do vídeo:
+ * https://youtu.be/XtcsdfO3XXw
 
