@@ -67,7 +67,7 @@ Resolvidos esses problemas fomos para a bluepill, como já sabiamos o formato em
 ___________________________________________________
 ## Apresentação em vídeo e demonstração do funcionamento do projeto
 ### Link do vídeo:
- * https://youtu.be/XtcsdfO3XXw
+ * https://youtu.be/tM9d7GEKQDo
 ___________________________________________________
 ## Resultados
 Passadas as dificuldades, chegamos ao projeto final. Conseguimos implementar com sucesso a parte de reconhecimento de voz, onde cada comando foi realizado uma função pré-programada com sucesso. Logo, foi possível sintetizar uma Alexa. Além disso, o nosso projeto possui uma enorme capacidade de expansão. Então, precisando apenas de um pouco de conhecimento de programação em C e uma noção de utilização da IDE é possível conectar diversos dispostivos BLE para realização de diversos comandos.
